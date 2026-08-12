@@ -1,0 +1,77 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Environment Variables
+.env
+.env.*
+*.env
+!.env.example
+
+# Production Builds
+dist/
+dist-ssr/
+build/
+.next/
+out/
+
+# Testing & Coverage
+coverage/
+.nyc_output/
+*.lcov
+
+# Local SQLite Database Files
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+*.sqlite-wal
+*.sqlite-shm
+src/config/*.sqlite
+src/config/*.sqlite-wal
+src/config/*.sqlite-shm
+test.sqlite
+
+# Python Artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.system_generated/
+
+# IDE & Editor Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Temporary files & Caches
+.cache/
+.parcel-cache/
+.eslintcache
+.tempmediaStorage/

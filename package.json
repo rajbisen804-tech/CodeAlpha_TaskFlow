@@ -1,0 +1,23 @@
+{
+  "name": "taskflow-pro-root",
+  "version": "1.0.0",
+  "description": "TaskFlow Pro - Collaborative Project Management Application",
+  "scripts": {
+    "dev": "node dev-runner.js",
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "seed": "cd server && npm run seed",
+    "test": "cd server && npm test",
+    "install:all": "npm install && cd server && npm install && cd ../client && npm install"
+  },
+  "keywords": [
+    "taskflow-pro",
+    "codealpha",
+    "react",
+    "express",
+    "kanban",
+    "socket.io"
+  ],
+  "author": "CodeAlpha Intern",
+  "license": "MIT"
+}

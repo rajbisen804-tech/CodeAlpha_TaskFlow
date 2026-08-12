@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Environment Variables
+.env
+.env.*
+*.env
+!.env.example
+
+# Database Files
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite-wal
+*.sqlite-shm
+src/config/*.sqlite
+src/config/*.sqlite-wal
+src/config/*.sqlite-shm
+
+# Coverage & Logs
+coverage/
+*.log
